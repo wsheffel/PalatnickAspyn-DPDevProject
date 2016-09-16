@@ -1,0 +1,19 @@
+{
+	"title": "some title",
+	"date": "some date written",
+	"author": "some author",
+	"image-front": {
+		"url": "some image url",
+		"caption": "some image caption"
+	},
+	"content": [
+		"Some article content - The world needs to...",
+		{
+			"image": {
+				"url": "some image url",
+				"caption": "some image caption"
+			}
+		},
+		"More article content. Words. Words. Words"
+	]
+}
