@@ -1,0 +1,113 @@
+{
+	"headlines-front": {
+		"main-headline": {
+			"image-url": "some image url",
+			"title": "some title",
+			"subtitle": "some subtitle"
+		},
+		"side-headlines": {
+			"top": {
+				"image-url": "some image url",
+				"title": "some title"
+			},
+			"middle": {
+				"image-url": "some image url",
+				"title": "some title"
+			},
+			"bottom": {
+				"image-url": "some image url",
+				"title": "some title"
+			}
+		}
+	},
+	"headlines-main-content": [
+		{
+			"thumbnail-url": "some thumbnail url",
+			"title": "some title",
+			"author": "some author",
+			"date written": "some date written",
+			"subtitle": "some subtitle"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"title": "some title",
+			"author": "some author",
+			"date written": "some date written",
+			"subtitle": "some subtitle"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"title": "some title",
+			"author": "some author",
+			"date written": "some date written",
+			"subtitle": "some subtitle"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"title": "some title",
+			"author": "some author",
+			"date written": "some date written",
+			"subtitle": "some subtitle"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"title": "some title",
+			"author": "some author",
+			"date written": "some date written",
+			"subtitle": "some subtitle"
+		}
+	],
+	"schedule": [
+		{
+			"date": "Some date",
+			"opponent": "Some opponent",
+			"home": true
+		},
+		{
+			"date": "Some date",
+			"opponent": "Some opponent",
+			"home": true
+		},
+		{
+			"date": "Some date",
+			"opponent": "Some opponent",
+			"home": true
+		},
+		{
+			"date": "Some date",
+			"opponent": "Some opponent",
+			"home": true
+		},
+		{
+			"date": "Some date",
+			"opponent": "Some opponent",
+			"home": true
+		}
+	],
+	"key_players": [
+		{
+			"thumbnail-url": "some thumbnail url",
+			"name": "some name",
+			"position": "some position",
+			"number": "some number",
+			"year": "some year (fresh, soph, etc).",
+			"description": "some description"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"name": "some name",
+			"position": "some position",
+			"number": "some number",
+			"year": "some year (fresh, soph, etc).",
+			"description": "some description"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"name": "some name",
+			"position": "some position",
+			"number": "some number",
+			"year": "some year (fresh, soph, etc).",
+			"description": "some description"
+		}
+	]
+}
