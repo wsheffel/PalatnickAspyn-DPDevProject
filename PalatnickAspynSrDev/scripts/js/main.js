@@ -1,3 +1,10 @@
 $(function () {
-	$('.main-front-text-hoverable').addClass('main-front-text-hoverable-on');
+	window.templater = Templater;
+
+	$.getJSON("../../headline_page1.json", function (result) {
+
+		window.templater(result, $("body"));
+	}).fail(function (a, b, err) {
+		console.log(err);
+	});
 });

@@ -1,0 +1,7 @@
+Normal HTML file
+
+For elements that should be editable, the element should have the attribute 'template-key' 
+
+For each element with attribute 'template-key' such that the attribute value is not 'child', there are two cases:
+    1) The element has no children: Set the text to be the value in the json file at the key corresponding to the value of 'template-key'
+    2) The element has children: for each element in the array at that json value, duplicate the child and look in the child with the attribute 'template-key': 'child'

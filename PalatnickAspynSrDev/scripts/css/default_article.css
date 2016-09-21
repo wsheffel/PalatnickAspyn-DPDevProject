@@ -1,0 +1,65 @@
+
+
+.title-label {
+	text-align: left;
+	font-size: 2.5em;
+}
+
+.line-divider {
+	display: block;
+	color: white;
+	height: 2px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+	background: rgb(125,126,125); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 */
+}
+
+.header-base-info {
+	
+}
+
+.description-label {
+	margin-top: 0px;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 1.5em;
+}
+
+.info-label {
+	margin-top: 0px;
+	text-align: left;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.recommended-header {
+	text-align: left;
+	font-style: italic;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.recommended-caption {
+	font-size: 1em;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    background-color: #f6f6f6;
+    border-left: 3px solid #C52126;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1.6;
+    margin: 1.2rem;
+    padding: .6rem;
+    text-transform: none;
+}
+
+img {
+	position: relative;
+}

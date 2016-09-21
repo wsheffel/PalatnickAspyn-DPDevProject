@@ -1,11 +1,13 @@
 {
 	"title": "some title",
+	"description": "Some short description of the article",
 	"date": "some date written",
 	"author": "some author",
 	"image-front": {
 		"url": "some image url",
 		"caption": "some image caption"
 	},
+	"content-type": "html/json -> html will be rendered straight to the DOM, json will be interpreted",
 	"content": [
 		"Some article content - The world needs to...",
 		{
