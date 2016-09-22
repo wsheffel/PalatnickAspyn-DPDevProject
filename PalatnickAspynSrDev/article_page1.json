@@ -1,0 +1,13 @@
+{
+	"title": "some title",
+	"description": "Some short description of the article",
+	"date": "some date written",
+	"author": "some author",
+	"image-front": {
+		"image": "some image url",
+		"caption": "some image caption"
+	},
+	"content": {
+		"html": "<p>Insert Content Here</p><blockquote>Insert some sort of quote here .</blockquote>"
+	}
+}

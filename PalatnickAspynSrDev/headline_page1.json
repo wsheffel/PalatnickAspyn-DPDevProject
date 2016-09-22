@@ -59,29 +59,29 @@
 	],
 	"schedule": [
 		{
-			"date": "Some date",
-			"opponent": "Some opponent",
-			"home": true
+			"date": "12/12",
+			"opponent": "Princeton",
+			"place": "(H)"
 		},
 		{
-			"date": "Some date",
-			"opponent": "Some opponent",
-			"home": true
+			"date": "12/12",
+			"opponent": "Princeton",
+			"place": "(H)"
 		},
 		{
-			"date": "Some date",
-			"opponent": "Some opponent",
-			"home": true
+			"date": "12/12",
+			"opponent": "Princeton",
+			"place": "(H)"
 		},
 		{
-			"date": "Some date",
-			"opponent": "Some opponent",
-			"home": true
+			"date": "12/12",
+			"opponent": "Princeton",
+			"place": "(H)"
 		},
 		{
-			"date": "Some date",
-			"opponent": "Some opponent",
-			"home": true
+			"date": "12/12",
+			"opponent": "Princeton",
+			"place": "(H)"
 		}
 	],
 	"key_players": [

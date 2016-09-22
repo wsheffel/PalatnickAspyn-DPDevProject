@@ -2,6 +2,8 @@ $(function () {
     var IMAGE_INDICATOR_THUMBNAIL = "thumbnail-url";
     var IMAGE_INDICATOR_PICTURE = "image";
 
+    var HTML_INDICATOR = "html";
+
     var generateHtml = function (json, template) {
     	$(template).find("[template-key*='template']").each(function (i, obj) {
             var templateKeyFullVal = $(obj).attr('template-key');
@@ -30,6 +32,8 @@ $(function () {
                         if (jsonElementID === IMAGE_INDICATOR_PICTURE 
                             || jsonElementID == IMAGE_INDICATOR_THUMBNAIL) {
                             $(this).attr({'src': jsonElementContents});
+                        } else if (jsonElementID === HTML_INDICATOR) {
+                            $(this).html(jsonElementContents);
                         } else {
                             $(this).text(jsonElementContents);
                         }
@@ -43,10 +47,21 @@ $(function () {
     	$(template).find("[template-key]:not([template-key*='template'])").each(function (i, obj) {
             var templateKeyFullVal = $(obj).attr('template-key');
     		var value = json;
+            var key = '';
     		$.each(templateKeyFullVal.split(' '), function (j, k) {
+                key = k;
     			value = value[k];
     		});
-            $(this).text(value);
+            
+            if (key === IMAGE_INDICATOR_PICTURE
+                || key == IMAGE_INDICATOR_THUMBNAIL) {
+                $(this).attr({'src': value});
+            } else if (key === HTML_INDICATOR) {
+                console.log(key);
+                $(this).html(value);
+            } else {
+                $(this).text(value);
+            }
     	});
     };
     window.Templater = generateHtml;

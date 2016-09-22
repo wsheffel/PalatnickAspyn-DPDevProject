@@ -4,11 +4,11 @@
 	"date": "some date written",
 	"author": "some author",
 	"image-front": {
-		"url": "some image url",
+		"image": "some image url",
 		"caption": "some image caption"
 	},
-	"content-type": "html/json -> html will be rendered straight to the DOM, json will be interpreted",
-	"content": [
+	// "content-type": "html/json -> html will be rendered straight to the DOM, json will be interpreted",
+	"content": "Some html sequence"/*[
 		"Some article content - The world needs to...",
 		{
 			"image": {
@@ -17,5 +17,5 @@
 			}
 		},
 		"More article content. Words. Words. Words"
-	]
+	]*/
 }

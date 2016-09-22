@@ -2,6 +2,13 @@ h1 {
 	text-align: center
 }
 
+.with-line {
+	border-right: 2px solid black; 
+	padding-left: 2px;
+	padding-right: 3px;
+}
+
+
 .main-front {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -135,5 +142,7 @@ h1 {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 */
 }
 
-
+.info-box-schedule {
+	text-align: center;
+}
 
