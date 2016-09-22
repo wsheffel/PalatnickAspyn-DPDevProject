@@ -22,6 +22,7 @@
 	},
 	"headlines-main-content": [
 		{
+			"href": "some link to the article",
 			"thumbnail-url": "some thumbnail url",
 			"title": "some title",
 			"author": "some author",
@@ -29,6 +30,7 @@
 			"subtitle": "some subtitle"
 		},
 		{
+			"href": "some link to the article",
 			"thumbnail-url": "some thumbnail url",
 			"title": "some title",
 			"author": "some author",
@@ -36,6 +38,7 @@
 			"subtitle": "some subtitle"
 		},
 		{
+			"href": "some link to the article",
 			"thumbnail-url": "some thumbnail url",
 			"title": "some title",
 			"author": "some author",
@@ -43,6 +46,7 @@
 			"subtitle": "some subtitle"
 		},
 		{
+			"href": "some link to the article",
 			"thumbnail-url": "some thumbnail url",
 			"title": "some title",
 			"author": "some author",
@@ -50,6 +54,7 @@
 			"subtitle": "some subtitle"
 		},
 		{
+			"href": "some link to the article",
 			"thumbnail-url": "some thumbnail url",
 			"title": "some title",
 			"author": "some author",

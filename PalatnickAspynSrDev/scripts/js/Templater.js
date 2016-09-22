@@ -3,6 +3,7 @@ $(function () {
     var IMAGE_INDICATOR_PICTURE = "image";
 
     var HTML_INDICATOR = "html";
+    var LINK_INDICATOR = "href";
 
     var generateHtml = function (json, template) {
     	$(template).find("[template-key*='template']").each(function (i, obj) {
@@ -34,6 +35,8 @@ $(function () {
                             $(this).attr({'src': jsonElementContents});
                         } else if (jsonElementID === HTML_INDICATOR) {
                             $(this).html(jsonElementContents);
+                        } else if (jsonElementID === LINK_INDICATOR) {
+                            $(this).attr(LINK_INDICATOR, jsonElementContents);
                         } else {
                             $(this).text(jsonElementContents);
                         }
@@ -59,6 +62,8 @@ $(function () {
             } else if (key === HTML_INDICATOR) {
                 console.log(key);
                 $(this).html(value);
+            }  else if (key === LINK_INDICATOR) {
+                $(this).attr(LINK_INDICATOR, value);
             } else {
                 $(this).text(value);
             }
