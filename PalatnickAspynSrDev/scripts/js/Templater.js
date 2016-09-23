@@ -38,7 +38,7 @@ $(function () {
                         } else if (jsonElementID === LINK_INDICATOR) {
                             $(this).attr(LINK_INDICATOR, jsonElementContents);
                         } else {
-                            $(this).text(jsonElementContents);
+                            $(this).text($(this).text() + jsonElementContents);
                         }
                     });
                     finalHtml += templateCopy.html();
@@ -55,7 +55,7 @@ $(function () {
                 key = k;
     			value = value[k];
     		});
-            
+            console.log(key);
             if (key === IMAGE_INDICATOR_PICTURE
                 || key == IMAGE_INDICATOR_THUMBNAIL) {
                 $(this).attr({'src': value});
@@ -65,7 +65,7 @@ $(function () {
             }  else if (key === LINK_INDICATOR) {
                 $(this).attr(LINK_INDICATOR, value);
             } else {
-                $(this).text(value);
+                $(this).text($(this).text() + value);
             }
     	});
     };

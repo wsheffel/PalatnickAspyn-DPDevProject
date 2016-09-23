@@ -9,6 +9,7 @@
 	display: block;
 	color: white;
 	height: 2px;
+	margin-bottom: 2%;
 	
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
 	background: rgb(125,126,125); /* Old browsers */
@@ -44,6 +45,15 @@
 
 .recommended-caption {
 	font-size: 1em;
+}
+
+body {
+	background-color: #E7E7E7;
+}
+
+.main-content {
+	background-color: #fff;
+	border: solid #DDDDDD 1px;
 }
 
 blockquote {
