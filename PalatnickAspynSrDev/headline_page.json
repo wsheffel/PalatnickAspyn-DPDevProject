@@ -1,0 +1,164 @@
+{
+	"headlines-front": {
+		"main-headline": {
+			"href": "./article1.html",
+			"image": "sample_content/article1/img.jpg",
+			"title": "Quakers seek rejuvenated offense in 2016",
+			"subtitle": "Scoring woes plagued Red and Blue in 2015"
+		},
+		"side-headlines": {
+			"top": {
+				"href": "./article2.html",
+				"image": "sample_content/article2/img.jpg",
+				"title": "Quakers draw opening two matches for first time in program history"
+			},
+			"middle": {
+				"href": "./article3.html",
+				"image": "sample_content/article3/img.jpg",
+				"title": "Quakers gear up to move on from disappointing 2015"
+			},
+			"bottom": {
+				"href": "./article4.html",
+				"image": "sample_content/article4/img.jpg",
+				"title": "Penn prepares for top-flight competition during weekend in Nebraska"
+			}
+		}
+	},
+	"headlines-main-content": [
+		{
+			"href": "./article1.html",
+			"thumbnail-url": "sample_content/article1/img.jpg",
+			"title": "Quakers seek rejuvenated offense in 2016",
+			"author": "SANJAY DURESETI",
+			"date": "09/06/16",
+			"subtitle": "Scoring woes plagued Red and Blue in 2015"
+		},
+		{
+			"href": "./article2.html",
+			"thumbnail-url": "sample_content/article2/img.jpg",
+			"title": "Quakers draw opening two matches for first time in program history",
+			"author": "NICK BUCHTA",
+			"date": "09/06/16",
+			"subtitle": "2-2 affair with American, 1-1 battle with Seton Hall start off season"
+		},
+		{
+			"href": "./article3.html",
+			"thumbnail-url": "sample_content/article3/img.jpg",
+			"title": "Quakers gear up to move on from disappointing 2015",
+			"author": "WILL SNOW",
+			"date": "09/06/16",
+			"subtitle": "Injuries, youth sunk last year's campaign"
+		},
+		{
+			"href": "./article4.html",
+			"thumbnail-url": "sample_content/article4/img.jpg",
+			"title": "Penn prepares for top-flight competition during weekend in Nebraska",
+			"author": "JACOB SNYDER",
+			"date": "09/06/16",
+			"subtitle": "Nebraska-Omaha, No. 8 Creighton await Quakers"
+		}
+	],
+	"schedule": [
+		{
+			"date": "9/9",
+			"opponent": "Creighton",
+			"place": "(A)"
+		},
+		{
+			"date": "9/11",
+			"opponent": "Nebraska-Omaha",
+			"place": "(A)"
+		},
+		{
+			"date": "9/17",
+			"opponent": "La Salle",
+			"place": "(H)"
+		},
+		{
+			"date": "9/20",
+			"opponent": "Lehigh",
+			"place": "(A)"
+		},
+		{
+			"date": "9/24",
+			"opponent": "Drexel",
+			"place": "(H)"
+		},
+		{
+			"date": "10/2",
+			"opponent": "Cornell",
+			"place": "(A)"
+		},
+		{
+			"date": "10/5",
+			"opponent": "Delaware",
+			"place": "(H)"
+		},
+		{
+			"date": "10/8",
+			"opponent": "Columbia",
+			"place": "(H)"
+		},
+		{
+			"date": "10/15",
+			"opponent": "Dartmouth",
+			"place": "(A)"
+		},
+		{
+			"date": "10/19",
+			"opponent": "Villanova",
+			"place": "(A)"
+		},
+		{
+			"date": "10/22",
+			"opponent": "Yale",
+			"place": "(A)"
+		},
+		{
+			"date": "10/25",
+			"opponent": "West Virginia",
+			"place": "(H)"
+		},
+		{
+			"date": "10/29",
+			"opponent": "Brown",
+			"place": "(H)"
+		},
+		{
+			"date": "11/5",
+			"opponent": "Princeton",
+			"place": "(A)"
+		},
+		{
+			"date": "11/12",
+			"opponent": "Harvard",
+			"place": "(H)"
+		}
+	],
+	"key_players": [
+		{
+			"thumbnail-url": "some thumbnail url",
+			"name": "some name",
+			"position": "some position",
+			"number": "some number",
+			"year": "some year (fresh, soph, etc).",
+			"description": "some description"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"name": "some name",
+			"position": "some position",
+			"number": "some number",
+			"year": "some year (fresh, soph, etc).",
+			"description": "some description"
+		},
+		{
+			"thumbnail-url": "some thumbnail url",
+			"name": "some name",
+			"position": "some position",
+			"number": "some number",
+			"year": "some year (fresh, soph, etc).",
+			"description": "some description"
+		}
+	]
+}

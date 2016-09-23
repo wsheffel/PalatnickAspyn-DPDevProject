@@ -1,20 +1,24 @@
 {
 	"headlines-front": {
 		"main-headline": {
+			"href": "some url",
 			"image-url": "some image url",
 			"title": "some title",
 			"subtitle": "some subtitle"
 		},
 		"side-headlines": {
 			"top": {
+				"href": "some url",
 				"image-url": "some image url",
 				"title": "some title"
 			},
 			"middle": {
+				"href": "some url",
 				"image-url": "some image url",
 				"title": "some title"
 			},
 			"bottom": {
+				"href": "some url",
 				"image-url": "some image url",
 				"title": "some title"
 			}
